@@ -2,6 +2,7 @@ import React from 'react'
 import Gallery from '../main/gallery/Gallery'
 import Overview from './overview/Overview'
 import Detail from './detail/Detail'
+import Call from '../main/calltoaction/Call'
 
 export default function Main() {
   return (
@@ -9,6 +10,7 @@ export default function Main() {
       <Gallery/>
       <Overview/>
       <Detail/>
+      <Call/>
     </main>
   )
 }
