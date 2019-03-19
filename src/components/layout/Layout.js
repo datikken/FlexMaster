@@ -1,13 +1,22 @@
 import React from 'react'
-import Aux from '../../hoc/Aux'
+import Header from '../header/Header'
 
 export default function Layout(props) {
   return (
-    <Aux>
-        <h1>Toolbar</h1>
-        <main>
+    <div className="container">
+        <Header/>
+
+        <div className="content">
+          <nav className="sidebar">
+            Navigation
+          </nav>
+
+          <main className="hotel-view">
+            Hotel view
             {props.children}
-        </main>
-    </Aux>
+          </main>
+        </div>
+
+    </div>
   )
 }
