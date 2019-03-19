@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/Header'
 import Sidebar from '../sidebar/Sidebar'
+import Main from '../main/Main'
 
 export default function Layout(props) {
   return (
@@ -9,11 +10,7 @@ export default function Layout(props) {
 
       <div className="content">
         <Sidebar/>
-
-          <main className="hotel-view">
-            Hotel view
-            {props.children}
-          </main>
+        <Main/>
         </div>
 
     </div>
