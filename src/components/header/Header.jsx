@@ -27,7 +27,7 @@ export default function Header() {
 
             <div className="user-nav__user">
                 <img src={Photo} alt="" className="user-nav__user-photo"/>
-                <span className="user-nav__user-name">Jonas</span>
+                <span className="user-nav__user-name">Tikken</span>
             </div>
         </nav>
     </header>
