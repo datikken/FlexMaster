@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import Layout from './components/layout/Layout'
+import React, { Component, ReactFragment } from 'react'
+import Layout from './components/layout/Layout.jsx'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Layout/>
-      </div>
+      </React.Fragment>
     );
   }
 }

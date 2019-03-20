@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../header/Header'
-import Sidebar from '../sidebar/Sidebar'
-import Main from '../main/Main'
+import Header from '../header/Header.jsx'
+import Sidebar from '../sidebar/Sidebar.jsx'
+import Main from '../main/Main.jsx'
 
 export default function Layout(props) {
   return (
@@ -11,7 +11,7 @@ export default function Layout(props) {
       <div className="content">
         <Sidebar/>
         <Main/>
-        </div>
+      </div>
 
     </div>
   )

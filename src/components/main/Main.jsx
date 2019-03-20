@@ -1,8 +1,8 @@
 import React from 'react'
-import Gallery from '../main/gallery/Gallery'
-import Overview from './overview/Overview'
-import Detail from './detail/Detail'
-import Call from '../main/calltoaction/Call'
+import Gallery from './gallery/Gallery.jsx'
+import Overview from './overview/Overview.jsx'
+import Detail from './detail/Detail.jsx'
+import Call from './calltoaction/Call.jsx'
 
 export default function Main() {
   return (
